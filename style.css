@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    /* Optional: Set a background color for the body*/
+}
+
+.container {
+    text-align: center;
+}
+
+.login {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    margin-bottom: 20px;
+}
+
+.uname,
+.pwd,
+.loginBtn,
+.fogPwd {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loginBtn {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.fogPwd {
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+}
